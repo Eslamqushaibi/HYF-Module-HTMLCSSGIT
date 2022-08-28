@@ -1,0 +1,21 @@
+
+
+
+How do I create a hidden file or folder? 
+
+mkdir .foldername
+touch .filename
+
+How do I display it in the CLI?
+
+ls -all
+
+
+How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+mkdir -p HYF/Week1/Notes
+
+How do I append a message to a file, without a newline character.
+
+echo "First message" >> commandnotes.txt
+echo -n "Second message" >> commandnotes.txt
