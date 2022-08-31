@@ -17,5 +17,5 @@ mkdir -p HYF/Week1/Notes
 
 How do I append a message to a file, without a newline character.
 
-echo "First message" >> commandnotes.txt
-echo -n "Second message" >> commandnotes.txt
+echo "first message" >> commandnotes.txt
+echo -n message" >> commandnotes.txt
