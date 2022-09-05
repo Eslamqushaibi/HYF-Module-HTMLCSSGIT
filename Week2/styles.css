@@ -76,8 +76,8 @@ a.btn-nav{
   width: 100px;
   height: 40px;
   margin-top: 5px;
-  background-color: #0056d2;
-color: white;
+  background-color: #0056d2 !important; 
+color: white !important;
 font-size: 12px;
 border-radius: 2px;
 border: none;
@@ -104,7 +104,7 @@ height: 60px;
 border: 0;
 font-size: 18px;
 border-radius: 5px;
-color: white;
+color: white !important;
 background-color: #0056d2;
 cursor: pointer;
 margin-top: 20px;
@@ -118,7 +118,7 @@ a.btn-second{
     padding: 10px 20px;
     font-size: 16px;
     border-color:  #0056d2;
-    color: #0056d2;
+    color: #0056d2 !important;
     cursor: pointer;
     margin-top: 20px;
 }
@@ -193,6 +193,25 @@ h2.big-text1{
   color: black;
 }
 
+footer{
+  margin-left: 30px;
+  height: 100vh;
+}
+.footer-list {
+  float: left;
+  width: 25%;
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 
 @media screen and (max-width: 1200px) {
@@ -230,6 +249,13 @@ h2.big-text1{
     margin: 5px;
     margin-left: 10px;
     height: 100px;
+  }
+
+  footer{
+    margin-top: 200px;
+  }
+  .footer-list {
+    width: 100%;
   }
   
 }
