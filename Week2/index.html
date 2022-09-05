@@ -3,85 +3,119 @@
  <head>
    
  <title> Responsive website</title>  
- <link rel="stylesheet" href="styles.css" />
- <script src="https://kit.fontawesome.com/669c5ed825.js" crossorigin="anonymous"></script>
+
+ <link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
  </head> 
  <body> 
-    <header>
-        <div class="logo">
-            <img src="https://i.postimg.cc/vTY2kHGW/Coursera-Logo.png" alt="logo" width="150px">
+    <main>
+    <header class="header">
+<nav class=" navbar navbar-style">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuicon">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a href=""> <img class="logo" src="images/Coursera-Logo.png"></a>
+            <div class="dropdown">
+                <button class="dropbtn">Explore</button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
         </div>
-        <div class="explore">
-            <button class="explore-btn"> Explore</button>
+
+        <input type="text" placeholder="What do you want to learn?">
+        <div class="collapse navbar-collapse" id="menuicon">
+        <ul class="nav navbar-nav navbar-right">
+            <li> <a href="">Online Degrees</a></li>
+            <li> <a href="">Find your New Career</a></li>
+            <li> <a href="">For Enterprise</a></li>
+            <li> <a href="">For Universities</a></li>
+            <li> <a href="">Log In</a></li>
+            <li><a class="btn btn-nav" href="#">Join for free </a></li>
+           
+        </ul>
+   
+    </div>
+</nav>
+</header>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-sm-6 banner-info">
+            <h1 class="big-text"> Learn without limit</h1>
+            <p> Start, switch, or advance your career with more than 5,000 courses,
+                Professional Certificates, and degrees 
+                from world-class universities and companies.</p>
+                <a class="btn btn-first" href="#">Join for Free</a>
+                <a class="btn btn-second" href="#">Try Coursera for Business </a>
+
+        </div>
+
+        <div class="col-sm-6 banner-image">
+            <img src="images/C-picture.png" class="img-responsive">
+
+        </div>
+    </div>
+</div>
+</main>
+
+
+<section class="collaboration">
+    <h1> <a href="https://www.coursera.org/about/partners">We collaborate with 200+ leading universities and companies</a></h1>
+    <div class="container">
+   
+        <div class="col-md-6 align-middle">
+            <div class="col-md-3 align-middle"><a href="#"><img src="images/Iillinois.png" class="img-responsive" alt="..."></a></div>
+            <div class="col-md-3 align-middle"><a href="#"><img src="images/duke.png" class="img-responsive" alt="..."></a></div>
+            <div class="col-md-3 align-middle"><a href="#"><img src="images/google.png" class="img-responsive" alt="..."></a></div>
+            <div class="col-md-3 align-middle"><a href="#"><img src="images/michigin.png" class="img-responsive" alt="..."></a></div>
         </div>
         
-        <div class="search-box">
-            <form><input type="text" placeholder="What do you want to learn">
-                <i class="fas fa-search"></i></form>
-        </div>
-        <nav> 
-            <ul>
-                
-                <li> <a href="https://www.coursera.org/degrees">Online Degrees </a></li>
-                <li> <a href="https://www.coursera.org/career-academy/?trk_ref=globalnav">Find your New Career </a></li>
-                <li> <a href="https://www.coursera.org/business/?utm_campaign=website&utm_content=corp-to-home-for-enterprise&utm_medium=coursera&utm_source=enterprise">For Enterprise</a></li>
-                <li> <a href="https://www.coursera.org/campus?utm_campaign=website&utm_content=corp-to-landing-for-campus&utm_medium=coursera&utm_source=header&utm_term=c-out">For Universities </a></li>
-                <li> <a href="https://www.coursera.org/?authMode=login">Log In </a></li>
-                <li> <a href="https://www.coursera.org/?authMode=signup" class="join-btn"> Join for Free</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="content-left">
-            <h1>Learn without limitation</h1>
-            <h2>Start, switch, or advance your career with more than 5,000 courses,<br>
-                Professional Certificates, and degrees 
-                from world-class universities<br>and companies.</h2> 
-                <button class="btn-1"><a href="https://www.coursera.org/?authMode=signup"> Join for Free </a></button>
-                <button class="btn-2"><a href="https://www.coursera.org/business?utm_campaign=website&utm_content=banner-from-B2C-home-try-business&utm_medium=coursera&utm_source=enterprise"> Try Coursera for Business </a></button>
-
+        
+        <div class="col-md-6 align-middle">
+            <div class="col-md-3"><a href="#"><img src="images/ibm.png" class="img-responsive" alt="..."></a></div>
+            <div class="col-md-3"><a href="#"><img src="images/imperial.png" class="img-responsive" alt="..."></a></div>
+            <div class="col-md-3"><a href="#"><img src="images/stanford.png" class="img-responsive" alt="..."></a></div>
+            <div class="col-md-3"><a href="#"><img src="images/penn.png" class="img-responsive" alt="..."></a></div>
         </div>
 
+    </div>
 
-        <div class="content-right">
-            <img src="./images/C-picture.png" alt="" class="c-picture">
-        </div>
-    </main>
+</section>
 
-    <section class="col">
-        <h1> <a href="https://www.coursera.org/about/partners">We collaborate with 200+ leading universities and companies</a></h1>
-        <nav> 
-            <ul>
-                
-                <li> <a href="https://www.coursera.org/illinois"><img src="https://i.postimg.cc/hP11n7KF/col-1.png"> </a></li>
-                <li> <a href="https://www.coursera.org/duke"><img src="https://i.postimg.cc/sxR5d38D/col-2.png"></a></li>
-                <li> <a href="https://www.coursera.org/google-career-certificates"><img src="https://i.postimg.cc/52tLM7Pv/col-3.png"></a></li>
-                <li> <a href="https://www.coursera.org/umich"><img src="https://i.postimg.cc/nhMjWszG/col-4.png"></a></li>
-                <li> <a href="https://www.coursera.org/ibm"><img src="https://i.postimg.cc/28SVqq4N/col-5.png"></a></li>
-                <li> <a href="https://www.coursera.org/imperial"><img src="https://i.postimg.cc/D0jfQgqk/col-6.png"></a></li>
-                <li> <a href="https://www.coursera.org/stanford"><img src="https://i.postimg.cc/D0MF4zT7/col-7.png"></a></li>
-                <li> <a href="https://www.coursera.org/penn"><img src="https://i.postimg.cc/Fzf8qgMQ/col-8.png"></a></li>
-            </ul>
-        </nav>
 
-    </section>
+<section class="join">
 
-    <section>
-        <div class="join">
+<div class="container">
+    <div class="row">
 
-        <div class="join-left">
-            <img src="https://i.postimg.cc/T1506RTK/Screenshot-2022-08-22-at-8-42-53-PM.png" alt="" class="join-picture">
+        <div class="col-sm-6 banner-image">
+            <img src="images/join.png" class="img-responsive">
         </div>
 
-        <div class="join-right">
-            <h1>Take the next step toward <br>your personal and <br>professional goals with <br>Coursera.</h1>
-            <h2> Join now to receive personalized recommendations from the full Coursera catalog.</h2> 
-                <button class="btn-1"> <a href="https://www.coursera.org/?authMode=signup"> Join for Free</a></button>
-            </div>
-            </div>
+        <div class="col-sm-6 banner-info">
+            <h1 class="big-text"> Take the next step toward your personal and professional goals with Coursera</h1>
+            <p> Join now to receive personalized recommendations from the full Coursera catalog.</p>
+                <a class="btn btn-first" href="#">Join for Free</a>
 
-    </section>
+        </div>
+     
 
+    </div>
+</div>
+
+</section>
+     
  </body>
  </html>
 
