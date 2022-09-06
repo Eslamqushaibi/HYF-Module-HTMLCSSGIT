@@ -9,10 +9,8 @@ body{
 }
 
 .header{
-  height: 100v;
+  height: 100px;
 }
-main{
-  height: 100vh;}
 
 .navbar-style{
   box-shadow: 0 5px 10px gray;
@@ -169,12 +167,6 @@ a.btn-second{
   transform: translate(-50%, -50%);
 }
 
-.join{
-  height: 100vh;
-  
-}
-
-
 
 .join-image{
   width: 500px;
@@ -196,6 +188,7 @@ h2.big-text1{
 footer{
   margin-left: 30px;
   height: 100vh;
+  margin; 0 auto;
 }
 .footer-list {
   float: left;
@@ -251,9 +244,8 @@ ul li {
     height: 100px;
   }
 
-  footer{
-    margin-top: 200px;
-  }
+
+ 
   .footer-list {
     width: 100%;
   }
